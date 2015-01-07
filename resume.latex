@@ -1,0 +1,98 @@
+\documentclass[10pt,a4paper]{kbcv}
+\title{Curriculum Vitae}
+\author{Kamil Boratyński}
+
+\begin{document}
+
+\begin{center}
+  \LARGE{Curriculum~Vit\ae}
+\end{center}
+
+\section{Personalities}
+\begin{multicols}{3}
+
+\begin{center}
+  \fbox{\includegraphics[scale=0.23]{./imgs/av.jpeg}}
+\end{center}
+\columnbreak{}
+\begin{tabular}{r  l}
+  \faFileTextO{}   & \link{https://goo.gl/np39BK}{RHCE} \\
+  \faFileTextO{}   & \link{https://goo.gl/np39BK}{RHCSA} \\
+\end{tabular}
+\columnbreak{}
+
+\begin{tabular}{r  l}
+  \faEnvelopeSquare{}   & \link{mailto:kamil.boratynski@icloud.com}{mail} \\
+  \\
+  \faLock{}             & \link{http://keybase.io/kboratynski}{keybase} \\
+  \faLinkedinSquare{}   & \link{http://linkedin.com/in/kamilboratynski}{linkedin} \\
+  \faGithubAlt{}        & \link{http://github.com/kamilboratynski}{github} \\
+  \faTwitterSquare{}    & \link{http://twitter.com/kamilboratynski}{twitter} \\
+\end{tabular}
+\end{multicols}
+
+
+\section{Education}
+\begin{facts}
+  \fact[Bialystok~University~of~Technology]{Bachelor's degree}{2012 --- 2015}
+
+  Bachelor's degree thesis topic: \textit{Mathematics of secret sharing schemes} The aim of this thesis was to present some secret sharing schemes. \textit{Secret sharing} refers to cryptography methods of sharing a secret {\ttfamily K} among group of people {\ttfamily P} – participants. 
+\end{facts}
+
+
+\section{Experience}
+\begin{facts}
+  \fact[inleo]{DevOps}{2016 --- \ldots{}}
+    \begin{itemize}
+      \item Configuration management with \code{Ansible}
+      \item Building \textit{continuous-integration} and \textit{continuous-deployment} infrastracture based on \code{Docker Datacener}: \code{Swarm}, \code{Universal Control Plane}, \code{Docker Trusted Registery}, \code{Gitlab} (including \textit{continuous-integration} module), \code{flocker} with \code{VMware} infrastructure on backend.
+      \item Clustering databases: \code{PostgreSQL} and \code{Redis}.
+      \item Managing systems with \code{Spacewalk}.
+    \end{itemize}
+
+    \fact[Roche]{Linux Administrator}{2016}
+    \begin{itemize}
+      \item Writing \code{bash} and \code{Python} based utils for automation.
+      \item Maintaining local repository: building, versioning and deploying \code{RPM} packages.
+      \item Maintaining infrastructure with \code{Ansible}.
+      \item Providing web application security tests.
+      \item Configuring \textit{Intrusion Detection Systems} and \textit{Intrusion Prevention System}.
+      \item Creating security policies, hardening operating systems and services.
+      \item Part of recruiting team.
+    \end{itemize}
+  \fact[TangramCare]{Linux Administrator}{2015}
+    \begin{itemize}
+      \item Maintaining infrastructure based on \code{ProxmoxVE}, \code{OpenVZ} containers and \code{KVM} virtual-machines.
+      \item Working on various \code{Linux} distributions and \code{UNIX} based operating systems: \code{Debian}, \code{CentOS}, \code{SmartOS}.
+      \item Responsible for network infrastructure: configuring network devices, maintaining \code{VPN} tunnels (\code{IPSec} and \code{L2TP}) and \code{DHCP} and \code{DNS} services.
+      \item Maintaining databases: \code{PostgreSQL}, \code{MongoDB}, \code{OracleDB}, \code{Redis} and queues systems, like: \code{RabbitMQ}.
+      \item Configuring \code{HTTP} servers, like: \code{Apache2}, \code{nginx} supporting \code{Python} (\code{Django}, \code{gunicorn}, \code{Celery}) based applications.
+      \item Implementing infrastructure monitoring based on \code{Zabbix}.
+      \item Configuring \code{Gitlab} and \code{Jenkins} as software creation deployment backend.
+      \item Deploying virtual-machines using \code{Kickstart}.
+      \item Working on \code{Docker} with \code{Python} based applications.
+      \item Part of recruiting team.
+    \end{itemize}
+  \fact[BIT]{Systems Engineer}{2014 --- 2015}
+    \begin{itemize}
+      \item Resposible for installing, configuring and maintaining various \code{Linux} distributions (\code{CentOS}, \code{RHEL}, \code{Ubuntu}, \code{Debian}, \code{Oracle Linux}).
+      \item Configuring \code{Apache2} supporting \code{PHP} based applications.
+      \item Providing backup based on \code{Bacula Software}: creating and implementing backup policies for databases and operating systems.
+      \item Buidling monitoring based on: \code{Zabbix} and \code{Graylog2}.
+      \item Implementing high-availability with tools: \code{keepalived}, \code{LVS}, \code{pacemaker}, \code{corosync} and load-balancers: \code{HAProxy}, \code{nginx}.
+      \item Configuring clustered file-systems: \code{OCFS2}, \code{GlobalFS2}, \code{GlusterFS} and clustered web services.
+      \item Managing clustered database servers:  \code{MySQL}.
+      \item Auditing operating systems using various tools, in example: \code{Lynis}.
+      \item Managing infrastructure based on \code{Ansible}.
+      \item Working and configuring \code{VMware ESXi Virtualisation Technologies}.
+    \end{itemize}
+  \fact[Vimana]{IT Systems Administrator}{2013 --- 2014}
+    \begin{itemize}
+      \item Configuring telephony based on \code{Asterisk}.
+      \item Managing \code{KVM} hypervisor.
+      \item Configuring \code{SAMBA} shares.
+      \item Maintaining \code{LXC} containers.
+    \end{itemize}
+\end{facts}
+
+\end{document}
