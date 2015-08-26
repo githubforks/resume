@@ -107,12 +107,21 @@
 \section{Education}
 
 \begin{description}[leftmargin=!,labelwidth=0.2\textwidth]
-  \item[2012 -- $\ldots$] \textsc{Bialystok University of Technology} %
+  \item[2015 -- $\ldots$] \textsc{Bialystok University of Technology} %
+                          \textit{Faculty of Computer Science} %
+                          \newline %
+                          \textbf{ Computer Science } %
+                          \newline %
+                          Masters's degree studies; full-time programme.
+  \item[2012 -- 2015] \textsc{Bialystok University of Technology} %
                           \textit{Faculty of Computer Science} %
                           \newline %
                           \textbf{ Mathematics \& Computer Science } %
                           \newline %
                           Bechelor's degree studies; full-time programme.
+                          \newline %
+                          Thesis: \textit{Mathematics of secret sharing schemes}. Grade: \textbf{5.0}.
+                          \newline %
   \item[2009 -- 2012]     \textsc{John Paul II High School in Gołdap} %
                           \newline
                           \textit{ Class with extended mathematics and physics
@@ -121,48 +130,34 @@
 
 \section{Experience}
 
-\begin{description}[leftmargin=!,labelwidth=0.2\textwidth] %Experience history.
-  \item[2014 -- $\ldots$] \textbf{ BIT S.A. } % 
+\begin{description}[leftmargin=!,labelwidth=0.2\textwidth]
+
+  \item[2015 -- $\ldots$] \textbf{ Tangramcare } % 
+                          \textit{ IT Systems Administrator } %
+                          \hfill %
+    \begin{itemize}[label={\textbf -},topsep=0pt]
+      \item Responsible for network infrastructure and solving issues associated with it, including: network devices configuration, maintaining VPN tunnels, DHCP and DNS services.
+      \item Maintaining various databases: {\ttfamily PostgreSQL}, {\ttfamily MongoDB}, {\ttfamily Redis}.
+      \item Configuring and maintaining {\ttfamily HTTP} servers, like: {\ttfamily Apache2}, {\ttfamily nginx}; including security policies and {\ttfamily SSL} management.
+      \item Implementing infrastructure monitoring based on {\ttfamily Zabbix}.
+      \item Maintaining infrastructure based on {\ttfamily ProxmoxVE} and {\ttfamily OpenVZ} containers.
+      \item Working on various Linux distributions and UNIX based operating systems, for example: {\ttfamily RHEL}, {\ttfamily Debian}, {\ttfamily CentOS} and {\ttfamily SmartOS}.
+      \item Writing {\ttfamily bash}-based scripts for tasks automation.
+
+    \end{itemize}
+  \item[2014 -- 2015] \textbf{ BIT S.A. } % 
                           \textit{ Systems Engineer} %
                           \hfill %
-
     \begin{itemize}[label={\textbf -},topsep=0pt]
-      \item Resposible for installing, configuring and maintaining various 
-            Linux distributions (CentOS, RHEL, Ubuntu, Debian, 
-            Oracle Linux, $\ldots$) supporting databases and web applications.
-
-      \item Developing, configuring, maintaing  backup based on 
-            {\ttfamily Bacula Software}. \\
-            Creating and implementing backup policies including database 
-            copies and full operating systems images.
-
-      \item Instructing customers on infrastructure schemes, 
-            installed software and creating manual guides on 
-            administrative level.
-
-      \item Configuring and providing monitoring tools like 
-            {\ttfamily Zabbix} and {\ttfamily Graylog2}.
-
-      \item Implementing and configuring \textit{high-availability} \\
-            using tools like {\ttfamily Keepalived}, {\ttfamily LVS} 
-            and various  \textit{load-balancers}, in example: \\
-            {\ttfamily HAProxy}, {\ttfamily nginx}.
-
-      \item Creating, developing and maintaining clustered environments 
-            focused on clustered file-systems like: \\
-            {\ttfamily OCFS2}, {\ttfamily GlobalFS2}, {\ttfamily GlusterFS} 
-            and clustered web services.
-
-      \item Providing, configuring and maintaining DNS server 
-            based on {\ttfamily bind9} including mail~-~server 
-            security policies implementation.
-
+      \item Resposible for installing, configuring and maintaining various Linux distributions ({\ttfamily CentOS}, {\ttfamily RHEL}, {\ttfamily Ubuntu}, {\ttfamily Debian}, {\ttfamily Oracle Linux}, $\ldots$) supporting databases and web applications.
+      \item Developing, configuring, maintaing  backup based on {\ttfamily Bacula Software}. Creating and implementing backup policies including database copies and full operating systems images.
+      \item Instructing customers on infrastructure schemes, installed software and creating manual guides on administrative level.
+      \item Configuring and providing monitoring tools like {\ttfamily Zabbix} and {\ttfamily Graylog2}.
+      \item Implementing and configuring \textit{high-availability} using tools like {\ttfamily Keepalived}, {\ttfamily LVS} and various  \textit{load-balancers}, in example: {\ttfamily HAProxy}, {\ttfamily nginx}.
+      \item Creating, developing and maintaining clustered environments focused on clustered file-systems like: {\ttfamily OCFS2}, {\ttfamily GlobalFS2}, {\ttfamily GlusterFS} and clustered web services.
+      \item Providing, configuring and maintaining DNS server based on {\ttfamily bind9} including mail~-~server security policies implementation.
       \item Managing database servers -- {\ttfamily MySQL}, mainly.
-
-      \item Securing operating systems with granting permissions for 
-        various server administrators using tools like: {\ttfamily sudo},
-        {\ttfamily iptables}, $\ldots$
-
+      \item Securing operating systems with granting permissions.
     \end{itemize}
 
   \item[2013 -- 2014] \textbf{ Vimana sp. z o.o. } %
@@ -170,11 +165,10 @@
                       \hfill %
 
     \begin{itemize}[label={\textbf -},topsep=0pt]
-      \item Installing, configuring and maintaining Debian based servers
-        including: web-servers and KVM-based hosts with various virtual
-        machines.
-      \item Configuring, developing, maintaining and implementing Asterisk
-        call center system.
+      \item Installing, configuring and maintaining Debian based servers including: web-servers and KVM-based hosts with various virtual machines.
+      \item Configuring, developing, maintaining and implementing Asterisk call center system.
+      \item Configuring {\ttfamily SAMBA} based file shares.
+      \item Working on {\ttfamily LXC} containers.
       \item Calldesk worker.
     \end{itemize}
 
@@ -182,24 +176,10 @@
 
 
 
-\section{Achievements}
+\section{Achievements \& Certificates }
 
 \begin{description}[leftmargin=!,labelwidth=0.2\textwidth]
-  \item[2012 -- $\ldots$]
-
-    Scholar of the 
-    \textit{Study Mathematical methods of Computer Science at
-            Bialystok University of Technology} 
-    project.
-
-  \item[2013 -- 2014]
-    Scholar of the
-    \textit{University president’s scholarship for best students}
-
-  \item[2012 -- 2014]
-
-    \textit{Student Open-Source Society} board member.
-
+  \item[RHCSA] Red Hat Certified System Administrator
 \end{description}
 
 
