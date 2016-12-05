@@ -74,8 +74,4 @@
 
 \newcommand{\code}{\texttt}
 \newcommand\fact[3][]{\item[\ttfamily{#1}] \textit{#2} \hfill{\ttfamily#3}\setlength{\parskip}{1pt}}
-\newenvironment{facts}{%
-   \begin{description}%
-}{%
-   \end{description}%
-}
+\newenvironment{facts}{\begin{description}[itemsep=2em]}{\end{description}}

@@ -5,10 +5,10 @@
 \begin{document}
 
 \begin{center}
-  \LARGE{Curriculum~Vit\ae}
+  \LARGE{Curriculum~Vitae}
 \end{center}
 
-\section{Personalities}
+\section{personal details}
 \begin{multicols}{3}
 
 \begin{center}
@@ -23,7 +23,6 @@
 
 \begin{tabular}{r  l}
   \faEnvelopeSquare{}   & \link{mailto:kamil.boratynski@icloud.com}{mail} \\
-  \\
   \faLock{}             & \link{http://keybase.io/kboratynski}{keybase} \\
   \faLinkedinSquare{}   & \link{http://linkedin.com/in/kamilboratynski}{linkedin} \\
   \faGithubAlt{}        & \link{http://github.com/kamilboratynski}{github} \\
@@ -42,7 +41,7 @@
 
 \section{Experience}
 \begin{facts}
-  \fact[inleo]{DevOps}{2016 --- \ldots{}}
+  \fact[inleo]{DevOps}{November 2016 --- \ldots{}}
     \begin{itemize}
       \item Configuration management with \code{Ansible}
       \item Building \textit{continuous-integration} and \textit{continuous-deployment} infrastracture based on \code{Docker Datacener}: \code{Swarm}, \code{Universal Control Plane}, \code{Docker Trusted Registery}, \code{Gitlab} (including \textit{continuous-integration} module), \code{flocker} with \code{VMware} infrastructure on backend.
@@ -50,7 +49,7 @@
       \item Managing systems with \code{Spacewalk}.
     \end{itemize}
 
-    \fact[Roche]{Linux Administrator}{2016}
+    \fact[Roche]{Linux Administrator}{January 2016 --- October 2016}
     \begin{itemize}
       \item Writing \code{bash} and \code{Python} based utils for automation.
       \item Maintaining local repository: building, versioning and deploying \code{RPM} packages.
@@ -60,7 +59,7 @@
       \item Creating security policies, hardening operating systems and services.
       \item Part of recruiting team.
     \end{itemize}
-  \fact[TangramCare]{Linux Administrator}{2015}
+  \fact[TangramCare]{Linux Administrator}{June 2015 --- December 2015}
     \begin{itemize}
       \item Maintaining infrastructure based on \code{ProxmoxVE}, \code{OpenVZ} containers and \code{KVM} virtual-machines.
       \item Working on various \code{Linux} distributions and \code{UNIX} based operating systems: \code{Debian}, \code{CentOS}, \code{SmartOS}.
@@ -73,7 +72,7 @@
       \item Working on \code{Docker} with \code{Python} based applications.
       \item Part of recruiting team.
     \end{itemize}
-  \fact[BIT]{Systems Engineer}{2014 --- 2015}
+  \fact[BIT]{Systems Engineer}{July 2014 --- June 2015}
     \begin{itemize}
       \item Resposible for installing, configuring and maintaining various \code{Linux} distributions (\code{CentOS}, \code{RHEL}, \code{Ubuntu}, \code{Debian}, \code{Oracle Linux}).
       \item Configuring \code{Apache2} supporting \code{PHP} based applications.
@@ -86,7 +85,7 @@
       \item Managing infrastructure based on \code{Ansible}.
       \item Working and configuring \code{VMware ESXi Virtualisation Technologies}.
     \end{itemize}
-  \fact[Vimana]{IT Systems Administrator}{2013 --- 2014}
+  \fact[Vimana]{IT Systems Administrator}{September 2013 --- June 2014}
     \begin{itemize}
       \item Configuring telephony based on \code{Asterisk}.
       \item Managing \code{KVM} hypervisor.
